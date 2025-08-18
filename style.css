@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+
+.search {
+  position: relative;
+}
+
+.search input{
+   background-color: rgba(255, 255, 255, 0.85);
+}
+
+#cityInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#suggestions {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.443);
+  width: 100%;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  display: none;
+}
+
+#suggestions div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#suggestions div:hover {
+  background: #f0f0f0;
+}
+
+.weather {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+.weather .icon {
+  margin-top: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+.weather h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.weather h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
